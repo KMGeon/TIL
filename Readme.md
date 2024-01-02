@@ -12,8 +12,7 @@
 
 ### 24년
 - [HTTP 완벽가이드]()
-- [스프링 총 정리]()
-- [운영체제]()
+- [CS 지식의 정석](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-cs-%ED%8A%B9%EA%B0%95/dashboard)
 - [자바 알고리즘 인터뷰 with 코틀린]()
 - [클린코드]()
 - [코틀린 기본편]()
