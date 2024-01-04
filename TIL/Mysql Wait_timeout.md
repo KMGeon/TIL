@@ -1,0 +1,1 @@
+https://velog.io/@geon_km/MySQL-The-last-packet-successfully-received-from-the-server-was-12345678-milliseconds-ago
