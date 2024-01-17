@@ -2,12 +2,12 @@
 
 ---
 
-<img src="../img/sql레벨업.png" height=300px>
+<img src="../../img/sql레벨업.png" height=300px>
 
 ## 목차
 ---
-- [DBMS 아키텍처](/SQL%20레벨업/DBMS%20아키텍처.md)
-- [SQL 기초](/SQL%20레벨업/Select구문.md)
+- [DBMS 아키텍처](/books/SQL%20레벨업/DBMS%20아키텍처.md)
+- [SQL 기초](/books/SQL%20레벨업/Select구문.md)
 - [SQL 조건 분기]()
 - [집약과 자르기]()
 - [반복문]()
