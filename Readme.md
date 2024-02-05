@@ -6,7 +6,7 @@
 ---
 
 ### 23년 12월
-- [SQL 첫걸음](books/SQL첫걸음/Readme.md)
+- [SQL 첫걸음](img/SQL첫걸음/Readme.md)
 - [AWS SAA 자격증 준비](/AWS%20SAA%20학습/Readme.md)
 - [이펙티브 자바](https://github.com/KMGeon/effectiveJava)
 
