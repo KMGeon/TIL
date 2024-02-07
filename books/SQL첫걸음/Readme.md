@@ -1,6 +1,6 @@
 # SQL 첫걸음
 
-![img.png](../sql첫걸음.png)
+![img.png](../../img/sql첫걸음.png)
 
 <br/>
 
