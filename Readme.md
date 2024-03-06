@@ -17,8 +17,6 @@
 
 ## Books
 
----
-
 [SQL첫걸음](/books/SQL첫걸음)
 
 [SQL레벨업](/books/SQL%20레벨업)
