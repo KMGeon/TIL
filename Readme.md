@@ -16,12 +16,17 @@
 ---
 
 
-### [TIL 기록보기](TIL)
+### [TIL history](TIL)
 
-## Books
+<br/>
 
-[SQL첫걸음](/books/SQL첫걸음)
+### [팀원에게 공유한 자료](함께 성장하고 싶은 Package)
 
-[SQL레벨업](/books/SQL%20레벨업)
+<br/>
 
-[단위 테스트](https://m.yes24.com/Goods/Detail/104084175)
+### [BOOK](books)
+>[SQL첫걸음](/books/SQL첫걸음)
+>
+> [SQL레벨업](/books/SQL%20레벨업)
+>
+> [단위 테스트](https://m.yes24.com/Goods/Detail/104084175)
