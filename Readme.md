@@ -14,19 +14,3 @@
 > 3. TIL을 작성하기 위해서 간단하게 학습하지 않기
 
 ---
-
-
-### [TIL history](TIL)
-
-<br/>
-
-### [팀원에게 공유한 자료](Tree)
-
-<br/>
-
-### [BOOK](books)
->[SQL첫걸음](/books/SQL첫걸음)
->
-> [SQL레벨업](/books/SQL%20레벨업)
->
-> [단위 테스트](https://m.yes24.com/Goods/Detail/104084175)
