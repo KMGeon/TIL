@@ -2,7 +2,7 @@
 
 ---
 
-![img_1.png](../../img/ㅊㄴ.png)
+![img_1.png](../img/ㅊㄴ.png)
 
 ## 목차
 
