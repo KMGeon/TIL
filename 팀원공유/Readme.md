@@ -12,12 +12,13 @@
 ---
 
 ### 0218 /[Spring에서 Server-Sent-Events(SSE) Scale Out 메세지 사용없이 MySQL Polling (Change Data Capture) 해결](https://velog.io/@geon_km/Spring%EC%97%90%EC%84%9CServer-Sent-EventsSSE%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
-![img_2.png](../../img/SSE.png)
+
+![img.png](../img/SSE.png)
 ---
 
 ### 0317 / [무중단 배포](https://velog.io/@geon_km/Nginx-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC)
 
-![img_1.png](../../img/무중단배포.png)
+![img.png](../img/무중단배포.png)
 
 
 ###  0519 [JUnit5, AssertJ 활용방법 및 Spring boot 테스트 코드 작성법](https://velog.io/@geon_km/%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-rs6ri4fz)
