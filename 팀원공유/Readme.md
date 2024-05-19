@@ -21,3 +21,4 @@
 
 
 ###  0519 [JUnit5, AssertJ 활용방법 및 Spring boot 테스트 코드 작성법](https://velog.io/@geon_km/%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-rs6ri4fz)
+![img.png](../img/0519.png)
