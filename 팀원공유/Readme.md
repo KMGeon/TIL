@@ -15,7 +15,7 @@
 ![img_2.png](../../img/SSE.png)
 ---
 
-### 0317 / [무중단 배포](https://velog.io/@geon_km/posts)
+### 0317 / [무중단 배포](https://velog.io/@geon_km/Nginx-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC)
 
 ![img_1.png](../../img/무중단배포.png)
 
