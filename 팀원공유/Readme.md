@@ -6,7 +6,7 @@
 
 - 기존의 단일 서버에서 다중 서버로 변경하면서 세션을 was로 관리하여 생기는 동기화 문제에 대해서 작성
 
-![img.png](../../img/다중세션.png)
+![img.png](..//img/다중세션.png)
 
 
 ---
@@ -18,3 +18,6 @@
 ### 0317 / [무중단 배포](https://velog.io/@geon_km/posts)
 
 ![img_1.png](../../img/무중단배포.png)
+
+
+###  0519 [JUnit5, AssertJ 활용방법 및 Spring boot 테스트 코드 작성법](https://velog.io/@geon_km/%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-rs6ri4fz)

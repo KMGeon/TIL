@@ -2,8 +2,6 @@
 
 ---
 
-[![Notion](https://img.shields.io/badge/Notion-Mugeon.TIL-blue.svg)](https://sable-entree-517.notion.site/57e41b31a810493eac896bc2ad3c7248?v=134d828533e149998276e6b31ad99679&pvs=4)
-
 [![Blog](https://img.shields.io/badge/Blog-geon_km.velog.io-green.svg)](https://velog.io/@geon_km)
 
 
@@ -14,3 +12,6 @@
 > 3. TIL을 작성하기 위해서 간단하게 학습하지 않기
 
 ---
+
+- 이전에 배운 cs, spring, java 시간나면 정리하자 
+- 새로 배우는 react, typescript 정리하자
