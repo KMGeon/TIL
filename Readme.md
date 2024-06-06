@@ -8,13 +8,9 @@
 
 
 
-### <p>$\huge{\rm{\color{#5ad7b7}[BackEnd]}}$</p>
-
 ### <p>$\it{\large{\color{#DD6565}[BackEnd]}}$</p>
 
 ---
-
-#### [Servlet]
 
 #### [Spring]
 
