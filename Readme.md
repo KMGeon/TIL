@@ -10,6 +10,8 @@
 
 ### <p>$\huge{\rm{\color{#5ad7b7}[BackEnd]}}$</p>
 
+### <p>$\it{\large{\color{#DD6565}[BackEnd]}}$</p>
+
 ---
 
 #### [Servlet]
@@ -22,7 +24,7 @@
 - [다중 서버 환경에서 세션 불일치](https://velog.io/@geon_km/%EB%8B%A4%EC%A4%91-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%84%B8%EC%85%98-%EB%B6%88%EC%9D%BC%EC%B9%98)
 - [Spring에서 Server-Sent-Events(SSE) Scale Out 메세지 사용없이 MySQL Polling (Change Data Capture)](https://velog.io/@geon_km/Spring%EC%97%90%EC%84%9CServer-Sent-EventsSSE%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 - [Jackson SerializationException](https://velog.io/@geon_km/Jackson-SerializationException-LocalDateTime-redis.serializer.SerializationException)
-
+- [Spring Boot Actuator IntelliJ 활용하기]()
 
 #### [JPA 기초]
 - [N+1 문제 다양한 해결법](https://velog.io/@geon_km/N1-%EB%AC%B8%EC%A0%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%ED%95%B4%EA%B2%B0%EB%B2%95)
@@ -102,3 +104,5 @@
 - [Docker를 기반으로 ci/cd](https://velog.io/@geon_km/Jenkins-Pipeline-CICD-SSHAgent)
 - [[CI/CD] Jenkins + SVN + CodeDeploy를 이용한 Pipeline Blue-Green 무중단 배포](https://velog.io/@geon_km/Nginx-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC)
 
+
+#### Nginx
