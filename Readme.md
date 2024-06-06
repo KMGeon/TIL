@@ -1,27 +1,32 @@
 # 습관을 만들기 위한 TIL Wiki
 
+
+[![Blog](https://img.shields.io/badge/Blog-geon_km.velog.io-green.svg)](https://velog.io/@geon_km)
+
+
+
+
+
+
+<p>$\huge{\rm{\color{#5ad7b7}[BackEnd Repo]}}$</p>
+
 ---
 
+### Servlet
 
-# [BackEnd Repo]
+### Spring 기초
 
----
-
-### - Servlet
-
-### - Spring 기초
-
-### - JPA 기초
+### JPA 기초
 
 
-### - Spring Batch
+### Spring Batch
 
 - [Spring Batch5 변화 및 Spring Batch4에서 달라진 부분]()
 - [Batch 기초학습]()
 - [Batch Job]()
 
 
-## 테스트 코드
+### 테스트 코드
 
 
 ## [DB Repo]
@@ -44,6 +49,4 @@
 ## [Infra Repo]
 
 ---
-
-
 
