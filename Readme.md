@@ -8,13 +8,13 @@
 
 
 
-<p>$\huge{\rm{\color{#5ad7b7}[BackEnd]}}$</p>
+### <p>$\huge{\rm{\color{#5ad7b7}[BackEnd]}}$</p>
 
 ---
 
-#### Servlet
+#### [Servlet]
 
-#### Spring
+#### [Spring]
 
 - [리플렉션(Reflection) Feat. Di 만들기](https://velog.io/@geon_km/Spring-%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98Reflection-Feat.-Di-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 - [객체지향의 사실과 오해](https://velog.io/@geon_km/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98-%EC%82%AC%EC%8B%A4%EA%B3%BC-%EC%98%A4%ED%95%B4-%EB%A6%AC%EB%B7%B0)
@@ -24,19 +24,19 @@
 - [Jackson SerializationException](https://velog.io/@geon_km/Jackson-SerializationException-LocalDateTime-redis.serializer.SerializationException)
 
 
-#### JPA 기초
+#### [JPA 기초]
 - [N+1 문제 다양한 해결법](https://velog.io/@geon_km/N1-%EB%AC%B8%EC%A0%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%ED%95%B4%EA%B2%B0%EB%B2%95)
 
-#### jOOQ
+#### [jOOQ]
 
-#### Spring Batch
+#### [Spring Batch]
 
 - [Spring Batch5 변화 및 Spring Batch4에서 달라진 부분]()
 - [Batch 기초학습]()
 - [Batch Job]()
 
 
-#### 테스트 코드
+#### [Test Code]
 
 - [JUnit5, AssertJ 활용방법 및 Spring boot 테스트 코드 작성법](https://velog.io/@geon_km/%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-rs6ri4fz)
 - [단위 테스트 (Unit Testing) 책 리뷰](https://velog.io/@geon_km/%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-Unit-Testing-%EC%B1%85-%EB%A6%AC%EB%B7%B0-sboe6ukm)
@@ -46,7 +46,7 @@
 <br/>
 <br/>
 
-<p>$\huge{\rm{\color{#5ad7b7}[RDBMS]}}$</p>
+### <p>$\huge{\rm{\color{#5ad7b7}[RDBMS]}}$</p>
 
 ---
 
@@ -54,12 +54,13 @@
 - [인덱스 총정리](https://velog.io/@geon_km/%EC%9D%B8%EB%8D%B1%EC%8A%A4)
 - [SQL첫걸음](SQL%EC%B2%AB%EA%B1%B8%EC%9D%8C)
 - [SQL 레벨업](SQL%20%EB%A0%88%EB%B2%A8%EC%97%85)
+- [MySQL Replication]()
 
 
 <br/>
 <br/>
 
-<p>$\huge{\rm{\color{#5ad7b7}[Front]}}$</p>
+### <p>$\huge{\rm{\color{#5ad7b7}[Front]}}$</p>
 
 ---
 
@@ -84,7 +85,7 @@
 <br/>
 
 
-<p>$\huge{\rm{\color{#5ad7b7}[Infra]}}$</p>
+### <p>$\huge{\rm{\color{#5ad7b7}[Infra]}}$</p>
 
 ---
 
@@ -100,15 +101,4 @@
 #### 젠킨스
 - [Docker를 기반으로 ci/cd](https://velog.io/@geon_km/Jenkins-Pipeline-CICD-SSHAgent)
 - [[CI/CD] Jenkins + SVN + CodeDeploy를 이용한 Pipeline Blue-Green 무중단 배포](https://velog.io/@geon_km/Nginx-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC)
-
-<br/>
-<br/>
-
-<p>$\huge{\rm{\color{#5ad7b7}[CStudy]}}$</p>
-
-#### 네트워크
-
-#### 운영체제
-
-#### 자료구조
 
