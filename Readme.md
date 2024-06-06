@@ -8,7 +8,7 @@
 
 
 
-<p>$\huge{\rm{\color{#5ad7b7}[BackEnd Repo]}}$</p>
+<p>$\huge{\rm{\color{#5ad7b7}[BackEnd]}}$</p>
 
 ---
 
@@ -29,8 +29,8 @@
 ### 테스트 코드
 
 
-## [DB Repo]
 
+<p>$\huge{\rm{\color{#5ad7b7}[RDBMS]}}$</p>
 
 ---
 
@@ -39,14 +39,14 @@
 - [SQL 레벨업](SQL%20%EB%A0%88%EB%B2%A8%EC%97%85)
 
 
-## [Front Repo]
+<p>$\huge{\rm{\color{#5ad7b7}[Front]}}$</p>
 
 ---
 
 - [html, css 총 정리]()
 
 
-## [Infra Repo]
+<p>$\huge{\rm{\color{#5ad7b7}[Infra]}}$</p>
 
 ---
 
