@@ -1,5 +1,7 @@
 ### [ [BUG] java.lang.StackOverflowError when method has more then 500 lines of code ]
 
+### [Lombok 관련 링크](https://github.com/projectlombok/lombok/issues/1118)
+
 [ 문제 발생 ]
 - Jenkins에 배포를 하는 도중에 다음과 같은 에러가 발생
 
