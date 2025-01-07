@@ -1,6 +1,6 @@
 # 자바 알고리즘 인터뷰
 
-- ![img.png](../../img/img.png)
+- ![img.png](../../TIL/2024/img/img.png)
 
 <br>
 
