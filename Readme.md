@@ -19,7 +19,8 @@
   - [배치 도메인 이해](/Spring/Batch/2.배치도메인이해.md)
   - [Job, Step, Flow 구현](/Spring/Batch/3.Job,Step,Flow.md)
   - [Scope](/Spring/Batch/4.Scope.md)
-  - [Chunk 기반 처리](/Spring/Batch/5.Chunk.md)
+  - [Chunk 기반 처리 + ItemReader](/Spring/Batch/5.Chunk.md)
+  - [ItemProcessor + ItemWriter](/Spring/Batch/6.ProcessorWriter.md)
   - [반복 및 오류 제어]()
   - [멀티 스레드 프로세싱]()
   - [이벤트 리스너]()
@@ -45,6 +46,14 @@
 <br/><br/>
 
 ## MYSQL 
+
+- 인덱스 정리
+- MySQL 8.0 아키텍처
+- MySQL에서 Update 시 Row Level X-Lock 경합으로 인한 데드락
+- MySQL HA(High Availability) Orchestrator
+- MySQL HA(High Availability) Replication 구축
+- MySQL Load Data를 통한 Data 마이그레이션
+- MySQL Ascending Index & Descending Index
 
 ---
 
