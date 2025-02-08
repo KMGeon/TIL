@@ -87,7 +87,6 @@
 
 ---
 
-- 
 - Real MySQL
 - [단위 테스트 (Unit Testing)](https://velog.io/@geon_km/%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-Unit-Testing-%EC%B1%85-%EB%A6%AC%EB%B7%B0-sboe6ukm)
 - [객체지향의 사실과 오해](https://velog.io/@geon_km/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98-%EC%82%AC%EC%8B%A4%EA%B3%BC-%EC%98%A4%ED%95%B4-%EB%A6%AC%EB%B7%B0)

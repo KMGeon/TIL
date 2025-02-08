@@ -1,6 +1,7 @@
 #!/bin/bash
 
-IMG_DIR="./Spring/Batch"
+#IMG_DIR="./Spring/Batch"
+IMG_DIR=$1
 TARGET_DIR="./TIL/img"
 
 mkdir -p "$TARGET_DIR"
