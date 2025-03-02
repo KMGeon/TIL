@@ -2,7 +2,7 @@
 
 #IMG_DIR="./Spring/Batch"
 IMG_DIR=$1
-TARGET_DIR="./TIL/img"
+TARGET_DIR="./img"
 
 mkdir -p "$TARGET_DIR"
 
