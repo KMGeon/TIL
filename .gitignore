@@ -12,3 +12,7 @@ gen
 !.cursor/
 !.cursor/rules/
 !.cursor/rules/*.mdc
+
+# Ignore ets folders and def.json files everywhere
+**/ets/
+**/def.json
