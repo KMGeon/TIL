@@ -8,99 +8,80 @@
 
 ## Spring
 
----
 - #### Core
-
-- #### Mybatis
-  - [기본 설정]()
-  - [Batch]()
 
 - #### JPA
 
-
 - #### Batch
-  - [스프링 배치 5 소개](/Spring/Batch/1.스프링배치.md)
-  - [배치 도메인 이해](/Spring/Batch/2.배치도메인이해.md)
-  - [Job, Step, Flow 구현](/Spring/Batch/3.Job,Step,Flow.md)
-  - [Scope](/Spring/Batch/4.Scope.md)
-  - [Chunk 기반 처리 + ItemReader](/Spring/Batch/5.Chunk.md)
-  - [ItemProcessor + ItemWriter](/Spring/Batch/6.ProcessorWriter.md)
-  - [반복 및 오류 제어]()
-  - [멀티 스레드 프로세싱]()
-  - [이벤트 리스너]()
-  - [배치 테스트 전략 및 운영]()
-  - [스케줄러]()
+  > - [스프링 배치 5 소개](/Spring/Batch/1.스프링배치.md)
+  > - [배치 도메인 이해](/Spring/Batch/2.배치도메인이해.md)
+  > - [Job, Step, Flow 구현](/Spring/Batch/3.Job,Step,Flow.md)
+  > - [Scope](/Spring/Batch/4.Scope.md)
+  > - [Chunk 기반 처리 + ItemReader](/Spring/Batch/5.Chunk.md)
+  > - [ItemProcessor + ItemWriter](/Spring/Batch/6.ProcessorWriter.md)
+  > - [반복 및 오류 제어]()
+  > - [멀티 스레드 프로세싱]()
+  > - [이벤트 리스너]()
+  > - [배치 테스트 전략 및 운영]()
+  > - [스케줄러]()
 
 
 
 - #### 테스트 코드
 
 
+
+## [Infra]()
+
+- #### MYSQL
+  >- 인덱스 정리
+  >- MySQL 8.0 아키텍처
+  >- MySQL에서 Update 시 Row Level X-Lock 경합으로 인한 데드락
+  >- MySQL HA(High Availability) Orchestrator
+  >- MySQL HA(High Availability) Replication 구축
+  >- MySQL Load Data를 통한 Data 마이그레이션
+  >- MySQL Ascending Index & Descending Index
+
+
 - #### 카프카
-  - [아파치 카프카 애플리케이션 프로그래밍 With 자바]()
-  - [카프카 서론](/kafka/카프카_서론.md)
-  - [카프카 개념 정리](/kafka/카프카_개념_정리.md)
-  - [파티션, 컨슈머 헷갈렸던 부분 정리]()
-  - [카프카 CLI]()
-  - [중복컨슘]()
-  - [에러 대응]()
-    - Retry
-    - ErrorHandler
-    - DLT (Dead Letter Topic)
-  - [Kafka 선착순 쿠폰 이벤트]()
-  - [Kafka ELK 실시간 로그 파이프라인]()
-
-<br/>
+  > - [아파치 카프카 애플리케이션 프로그래밍 With 자바]()
+  > - [카프카 서론](/kafka/카프카_서론.md)
+  > - [카프카 개념 정리](/kafka/카프카_개념_정리.md)
+  > - [파티션, 컨슈머 헷갈렸던 부분 정리]()
+  > - [카프카 CLI]()
+  > - [중복컨슘]()
+  > - [에러 대응]()
+  >   - Retry
+  >   - ErrorHandler
+  >   - DLT (Dead Letter Topic)
+  > - [Kafka 선착순 쿠폰 이벤트]()
+  > - [Kafka ELK 실시간 로그 파이프라인]()
 
 
-## Java
-- []()
-
----
-
-
-<br/>
-
-## MYSQL 
-
-- 인덱스 정리
-- MySQL 8.0 아키텍처
-- MySQL에서 Update 시 Row Level X-Lock 경합으로 인한 데드락
-- MySQL HA(High Availability) Orchestrator
-- MySQL HA(High Availability) Replication 구축
-- MySQL Load Data를 통한 Data 마이그레이션
-- MySQL Ascending Index & Descending Index
-
+- #### Redis
+  > - Redis란
+  > - Redis 자료구조
+  > - Redis 캐시
+  > - 캐시 스탬피드
+  > - Redis 메세지 브로커
+  > - 레디스 백업 방법
+  > -  Redis Pipeline , Lua Script
+  > - Redis 센티널
+  > - Redis 클러스터
+  > - Redis 보안
 ---
 
 <br/><br/>
 
 
-## Infra
-
----
-
+## Typescript
 
 <br/><br/>
 
 
-## 네트워크 
-
----
-
-<br/><br/>
-
-## 운영체제 
-
----
-
-<br/><br/>
-
-## React
-
----
-
-- [CSS](css/Readme.md)
+## ETC 
+  >- [CSS 정리](css/Readme.md)
+  >- 
 
 <br/><br/>
 

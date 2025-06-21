@@ -7,3 +7,8 @@
 out
 gen
 *.xml
+
+# Cursor rules should be included in Git
+!.cursor/
+!.cursor/rules/
+!.cursor/rules/*.mdc

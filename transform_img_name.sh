@@ -12,4 +12,4 @@ find "$IMG_DIR" -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" \) |
    new_name="$(uuidgen).$extension"
    mv "$image" "$TARGET_DIR/$new_name"
    echo "Copied: $filename -> $new_name"
-done
+sfadafs
