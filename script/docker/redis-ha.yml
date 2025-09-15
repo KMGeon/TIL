@@ -1,0 +1,140 @@
+services:
+  master:
+    image: 'bitnami/redis:7.0.9'
+    platform: linux/arm64
+    environment:
+      REDIS_REPLICATION_MODE: master
+      REDIS_PASSWORD: "gogo1234"
+    volumes:
+      - ./redis/redis_master_data:/bitnami/redis/data
+      - ./conf/redis/master.conf:/opt/bitnami/redis/mounted-etc/redis.conf
+    command: /opt/bitnami/scripts/redis/run.sh --include /opt/bitnami/redis/mounted-etc/redis.conf
+    networks:
+      - redis_network
+    restart: always
+
+  slave-1:
+    image: 'bitnami/redis:7.0.9'
+    platform: linux/arm64
+    environment:
+      REDIS_REPLICATION_MODE: slave
+      REDIS_MASTER_HOST: master
+      REDIS_PASSWORD: "gogo1234"
+      REDIS_MASTER_PASSWORD: "gogo1234"
+    volumes:
+      - ./redis/redis_slave1_data:/bitnami/redis/data
+      - ./conf/redis/slave.conf:/opt/bitnami/redis/mounted-etc/redis.conf
+    command: /opt/bitnami/scripts/redis/run.sh --include /opt/bitnami/redis/mounted-etc/redis.conf
+    networks:
+      - redis_network
+    depends_on:
+      - master
+
+  slave-2:
+    image: 'bitnami/redis:7.0.9'
+    platform: linux/arm64
+    environment:
+      REDIS_REPLICATION_MODE: slave
+      REDIS_MASTER_HOST: master
+      REDIS_PASSWORD: "gogo1234"
+      REDIS_MASTER_PASSWORD: "gogo1234"
+    volumes:
+      - ./redis/redis_slave2_data:/bitnami/redis/data
+      - ./conf/redis/slave.conf:/opt/bitnami/redis/mounted-etc/redis.conf
+    command: /opt/bitnami/scripts/redis/run.sh --include /opt/bitnami/redis/mounted-etc/redis.conf
+    networks:
+      - redis_network
+    depends_on:
+      - master
+
+  slave-3:
+    image: 'bitnami/redis:7.0.9'
+    platform: linux/arm64
+    environment:
+      REDIS_REPLICATION_MODE: slave
+      REDIS_MASTER_HOST: master
+      REDIS_PASSWORD: "gogo1234"
+      REDIS_MASTER_PASSWORD: "gogo1234"
+    volumes:
+      - ./redis/redis_slave3_data:/bitnami/redis/data
+      - ./conf/redis/slave.conf:/opt/bitnami/redis/mounted-etc/redis.conf
+    command: /opt/bitnami/scripts/redis/run.sh --include /opt/bitnami/redis/mounted-etc/redis.conf
+    networks:
+      - redis_network
+    depends_on:
+      - master
+
+  sentinel-1:
+    image: 'bitnami/redis-sentinel:7.0.9'
+    environment:
+      REDIS_MASTER_HOST: master
+      REDIS_MASTER_PASSWORD: "gogo1234"
+      REDIS_SENTINEL_DOWN_AFTER_MILLISECONDS: 5000
+      REDIS_SENTINEL_FAILOVER_TIMEOUT: 5000
+    networks:
+      - redis_network
+    depends_on:
+      - master
+      - slave-1
+      - slave-2
+      - slave-3
+
+  sentinel-2:
+    image: 'bitnami/redis-sentinel:7.0.9'
+    environment:
+      REDIS_MASTER_HOST: master
+      REDIS_MASTER_PASSWORD: "gogo1234"
+      REDIS_SENTINEL_DOWN_AFTER_MILLISECONDS: 5000
+      REDIS_SENTINEL_FAILOVER_TIMEOUT: 5000
+    networks:
+      - redis_network
+    depends_on:
+      - master
+      - slave-1
+      - slave-2
+      - slave-3
+
+  sentinel-3:
+    image: 'bitnami/redis-sentinel:7.0.9'
+    environment:
+      REDIS_MASTER_HOST: master
+      REDIS_MASTER_PASSWORD: "gogo1234"
+      REDIS_SENTINEL_DOWN_AFTER_MILLISECONDS: 5000
+      REDIS_SENTINEL_FAILOVER_TIMEOUT: 5000
+    networks:
+      - redis_network
+    depends_on:
+      - master
+      - slave-1
+      - slave-2
+      - slave-3
+
+  haproxy:
+    image: rafpe/docker-haproxy-rsyslog
+    ports:
+      - "80:80"
+      - "9000:9000"
+      - "5001:5001"
+    volumes:
+      - ./conf/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+    networks:
+      - redis_network
+    depends_on:
+      - master
+      - slave-1
+      - slave-2
+      - slave-3
+
+volumes:
+  redis_master_data:
+    driver: local
+  redis_slave1_data:
+    driver: local
+  redis_slave2_data:
+    driver: local
+  redis_slave3_data:
+    driver: local
+
+networks:
+  redis_network:
+    driver: bridge
