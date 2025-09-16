@@ -1,0 +1,31 @@
+{
+  "name": "mysql-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+    "tasks.max": "1",
+    "database.hostname": "${hostname}",
+    "database.port": "3306",
+    "database.user": "${id}",
+    "database.password": "${password}",
+    "database.server.id": "${SHOW VARIABLES LIKE 'server_id'}",
+    "database.connectionTimeZone": "Asia/Seoul",
+    "database.include.list": "포함하고 싶은 database",
+    "topic.prefix": "prefixExam",
+    "table.include.list": "포함하고 싶은 테이블",
+
+    // 초기에 init을 생성하지 않는다.
+    "schema.history.internal.store.only.captured.tables.ddl": "true",
+    "schema.history.internal.store.only.captured.databases.ddl": "true",
+
+    "schema.history.internal.kafka.bootstrap.servers": "kafka:29092",
+    "schema.history.internal.kafka.topic": "tbnws_event",
+
+    // 불필요한 컬럼을 제거한다.
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "false"
+  }
+}
+
+
